@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e9e4e4;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form input{
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    justify-content: space-between;
+    padding: 8px;
+    }
+
+form {
+    display: inline-block;
+    max-width: autopx;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+table{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px;
+}
+
+table th{
+    color: black;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*espaço entre as linhas*/
+table tr{
+    line-height: 1.5;
+}
+
+tbody td {
+    font-size: 18px;
+    padding: 8px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+table td img {
+    height: 30px;
+}
+
+table footer tr{
+    font-weight: bold;
+}
+
+#media-final{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
